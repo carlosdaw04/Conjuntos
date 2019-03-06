@@ -6,7 +6,7 @@ public class Conjuntos {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Escribe una operacion (formato : [x,x,x]+[y,y,y]): ");
 		String operacion = sc.nextLine();
-		
+		sc.close();
 		
 		ArrayList<Integer> ar1 = new ArrayList<Integer>();
 		ArrayList<Integer> ar2 = new ArrayList<Integer>();
